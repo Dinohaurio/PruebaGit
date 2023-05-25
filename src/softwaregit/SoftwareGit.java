@@ -10,16 +10,21 @@ package softwaregit;
  */
 public class SoftwareGit {
 
+public static int sumar(int num, int num2){
+    return num + num2;
+}
+    
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        System.out.println(sumar(2,3));
     }
-    int num1 = 0;
-    int num2 = 12;
+ 
     
-    int sumar = num1 + num2;
     
-    System.out.println(sumar);
 }
+
