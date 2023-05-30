@@ -32,6 +32,14 @@ public class SoftwareGit {
         return (factorial(num-1) * num);
     }
     
+    public static float log(int num, float base){
+        return (float)Math.log(num) / (float)Math.log(base);
+    }
+    
+    public static float ln(int num){
+        return log(num, (float)Math.E);
+    }
+    
     /**
      * @param args the command line arguments
      */
