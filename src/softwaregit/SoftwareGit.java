@@ -10,21 +10,27 @@ package softwaregit;
  */
 public class SoftwareGit {
 
-public static int sumar(int num, int num2){
-    return num + num2;
-}
+    public static int sumar(int num, int num2){
+        return num + num2;
+    }
 
-public static int resta(int num, int num2){
-    return num - num2;
-}
+    public static int resta(int num, int num2){
+        return num - num2;
+    }
 
-public static int multiplicar(int num, int num2){
-    return num * num2;
-}
+    public static int multiplicar(int num, int num2){
+        return num * num2;
+    }
 
-public static int dividir(int num, int num2){
-    return num / num2;
-}
+    public static int dividir(int num, int num2){
+        return num / num2;
+    }
+    
+    public static int factorial(int num){
+        if(num == 0) return 1; //chupate esta josecarlos
+        if(num < 3) return num;
+        return (factorial(num-1) * num);
+    }
     
     /**
      * @param args the command line arguments
