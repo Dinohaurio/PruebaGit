@@ -21,6 +21,10 @@ public static int resta(int num, int num2){
 public static int multiplicar(int num, int num2){
     return num * num2;
 }
+
+public static int dividir(int num, int num2){
+    return num / num2;
+}
     
     /**
      * @param args the command line arguments
