@@ -17,6 +17,10 @@ public static int sumar(int num, int num2){
 public static int resta(int num, int num2){
     return num - num2;
 }
+
+public static int multiplicar(int num, int num2){
+    return num * num2;
+}
     
     /**
      * @param args the command line arguments
