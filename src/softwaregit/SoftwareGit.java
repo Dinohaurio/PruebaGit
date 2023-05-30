@@ -13,7 +13,10 @@ public class SoftwareGit {
 public static int sumar(int num, int num2){
     return num + num2;
 }
-    
+
+public static int resta(int num, int num2){
+    return num - num2;
+}
     
     /**
      * @param args the command line arguments
@@ -24,6 +27,7 @@ public static int sumar(int num, int num2){
         System.out.println(sumar(2,3));
     }
  
+    
     
     
 }
